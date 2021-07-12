@@ -1,0 +1,22 @@
+{
+  "name": "zoetrope-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node-dev --no-notify src/app.js",
+    "migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seeders/Seeder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-dev": "^7.0.0",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
